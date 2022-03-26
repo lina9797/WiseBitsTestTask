@@ -1,0 +1,59 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Cross browser parallel suit",
+    "children" : [ {
+      "name" : "test on edge",
+      "children" : [ {
+        "name" : "tests.AmazonTests",
+        "children" : [ {
+          "name" : "test",
+          "uid" : "7ce1651696306d53",
+          "parentUid" : "3fb858bfe6ef6a0cf02f74e1fa15d51b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648334443891,
+            "stop" : 1648334457733,
+            "duration" : 13842
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "edge" ]
+        } ],
+        "uid" : "3fb858bfe6ef6a0cf02f74e1fa15d51b"
+      } ],
+      "uid" : "0d47cff94d057c3510e20a6b375100ce"
+    }, {
+      "name" : "test on chrome",
+      "children" : [ {
+        "name" : "tests.AmazonTests",
+        "children" : [ {
+          "name" : "test",
+          "uid" : "5105f7815428056a",
+          "parentUid" : "ae4d20df9247d274a150043bff29a264",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648334443891,
+            "stop" : 1648334457006,
+            "duration" : 13115
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "ae4d20df9247d274a150043bff29a264"
+      } ],
+      "uid" : "f977c645df5eb50f7cdcb06ed1f9694a"
+    } ],
+    "uid" : "e5040b306e97bd9ec9952e4223c3b3f6"
+  } ]
+}
